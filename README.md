@@ -1,2 +1,2 @@
 # WEBofBrotherhood
-a webside power by R,  a mumber of Brotherhood.
+a webside powered by R,  a mumber of Brotherhood.
