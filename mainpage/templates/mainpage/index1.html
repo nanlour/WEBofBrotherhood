@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<title>BROTHERHOOD</title>
+	</head>
+	<style type="text/css">
+		.navbar {
+			background:#000;
+		}
+		.navbar-nav > li > .dropdown-menu { background-color: black; }
+		body {
+			background-color:black
+
+		}
+
+	</style>
+	{% load static %}
+	<body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-dark fixed-top">
+				<!-- //brand -->
+				<a class="navbar-brand" href="#"><img alt="BROTHERHOOD" src="{% static 'mainpage/images/title3.png' %}" width="272" height="44" /></a>
+				<!-- //折叠按钮 -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+				 data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- //导航栏链接 -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				  <ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+				  </ul>
+				</div>
+			</nav>
+			<div class="row clearfix">
+				<img style="padding-top:70px" alt="" src="{% static 'mainpage/images/brotherhood.png' %}" width=100% />
+			</div>
+
+			<div class="row clearfix">
+				<div class="col-md-4 column"></div>
+				<div class="col-md-4 column">
+					<h2 class="text-center" style="color:white">
+						文宇大帝
+					</h2>
+					<p class="text-center">
+						想问天你在哪里
+					</p>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-4 column">
+					<h2 class="text-center" style="color:#C0C0C0;">
+						波尔特天秤
+					</h2>
+					<p class="text-center">
+						兄弟会坚定追随者
+					</p>
+				</div>
+				<div class="col-md-4 column">
+					<h2 class="text-center" style="color:#C0C0C0;">
+						小罗伯特唐尼
+					</h2>
+					<p class="text-center">
+						兄弟会创始成员
+					</p>
+				</div>
+				<div class="col-md-4 column">
+					<h2 class="text-center" style="color:#C0C0C0;">
+						,
+					</h2>
+					<p class="text-center">
+						兄弟会最强大的战士
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
