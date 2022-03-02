@@ -1,0 +1,189 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Mar  2 06:25:12 2022] ***
+compiled with version: 9.3.0 on 02 March 2022 05:53:26
+os: Linux-5.4.0-26-generic #30-Ubuntu SMP Mon Apr 20 16:58:30 UTC 2020
+nodename: brotherhood
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/tjur/WEBofBrotherhood
+writing pidfile to uwsgi.pid
+detected binary path: /home/tjur/WEBofBrotherhood/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/tjur/WEBofBrotherhood
+your processes number limit is 3641
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/tjur/WEBofBrotherhood/venv
+Set PythonHome to /home/tjur/WEBofBrotherhood/venv
+Python main interpreter initialized at 0x559ab28f95e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 750096 bytes (732 KB) for 16 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559ab28f95e0 pid: 33989 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33989)
+spawned uWSGI worker 1 (pid: 33991, cores: 2)
+spawned uWSGI worker 2 (pid: 33992, cores: 2)
+spawned uWSGI worker 3 (pid: 33994, cores: 2)
+spawned uWSGI worker 4 (pid: 33995, cores: 2)
+spawned uWSGI worker 5 (pid: 33996, cores: 2)
+spawned uWSGI worker 6 (pid: 33998, cores: 2)
+spawned uWSGI worker 7 (pid: 34000, cores: 2)
+spawned uWSGI worker 8 (pid: 34002, cores: 2)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Mar  2 06:33:55 2022] ***
+compiled with version: 9.3.0 on 02 March 2022 05:53:26
+os: Linux-5.4.0-26-generic #30-Ubuntu SMP Mon Apr 20 16:58:30 UTC 2020
+nodename: brotherhood
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/tjur/WEBofBrotherhood
+writing pidfile to uwsgi.pid
+detected binary path: /home/tjur/WEBofBrotherhood/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/tjur/WEBofBrotherhood
+your processes number limit is 3641
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Mar  2 06:35:02 2022] ***
+compiled with version: 9.3.0 on 02 March 2022 05:53:26
+os: Linux-5.4.0-26-generic #30-Ubuntu SMP Mon Apr 20 16:58:30 UTC 2020
+nodename: brotherhood
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/tjur/WEBofBrotherhood
+writing pidfile to uwsgi.pid
+detected binary path: /home/tjur/WEBofBrotherhood/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/tjur/WEBofBrotherhood
+your processes number limit is 3641
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35139 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/tjur/WEBofBrotherhood/venv
+Set PythonHome to /home/tjur/WEBofBrotherhood/venv
+Python main interpreter initialized at 0x5591029e46d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5591029e46d0 pid: 34072 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34072)
+spawned uWSGI worker 1 (pid: 34074, cores: 2)
+spawned uWSGI worker 2 (pid: 34075, cores: 2)
+spawned uWSGI worker 3 (pid: 34077, cores: 2)
+spawned uWSGI worker 4 (pid: 34078, cores: 2)
+spawned uWSGI http 1 (pid: 34079)
+[pid: 34077|app: 0|req: 1/1] 42.80.88.114 () {36 vars in 708 bytes} [Wed Mar  2 06:35:25 2022] GET / => generated 212 bytes in 56 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 34077|app: 0|req: 2/2] 42.80.88.114 () {36 vars in 670 bytes} [Wed Mar  2 06:35:25 2022] GET /favicon.ico => generated 2554 bytes in 17 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+[pid: 34078|app: 0|req: 1/3] 42.80.88.114 () {36 vars in 718 bytes} [Wed Mar  2 06:37:37 2022] GET /new => generated 0 bytes in 21 msecs (HTTP/1.1 301) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 34077|app: 0|req: 3/4] 42.80.88.114 () {36 vars in 720 bytes} [Wed Mar  2 06:37:37 2022] GET /new/ => generated 2618 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/title3.png
+[pid: 34078|app: 0|req: 2/5] 42.80.88.114 () {36 vars in 717 bytes} [Wed Mar  2 06:37:38 2022] GET /static/mainpage/images/title3.png => generated 2620 bytes in 30 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/brotherhood.png
+[pid: 34075|app: 0|req: 1/6] 42.80.88.114 () {36 vars in 727 bytes} [Wed Mar  2 06:37:38 2022] GET /static/mainpage/images/brotherhood.png => generated 2635 bytes in 64 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+[pid: 34075|app: 0|req: 2/7] 42.80.88.114 () {38 vars in 752 bytes} [Wed Mar  2 06:37:41 2022] GET /new/ => generated 2618 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/title3.png
+[pid: 34077|app: 0|req: 4/8] 42.80.88.114 () {36 vars in 717 bytes} [Wed Mar  2 06:37:41 2022] GET /static/mainpage/images/title3.png => generated 2620 bytes in 8 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/brotherhood.png
+[pid: 34074|app: 0|req: 1/9] 42.80.88.114 () {36 vars in 727 bytes} [Wed Mar  2 06:37:41 2022] GET /static/mainpage/images/brotherhood.png => generated 2635 bytes in 48 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+[pid: 34078|app: 0|req: 3/10] 42.80.88.114 () {38 vars in 752 bytes} [Wed Mar  2 06:39:20 2022] GET /new/ => generated 2618 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+Not Found: /static/mainpage/images/title3.png
+[pid: 34078|app: 0|req: 4/11] 42.80.88.114 () {36 vars in 717 bytes} [Wed Mar  2 06:39:20 2022] GET /static/mainpage/images/title3.png => generated 2620 bytes in 8 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/brotherhood.png
+[pid: 34077|app: 0|req: 5/12] 42.80.88.114 () {36 vars in 727 bytes} [Wed Mar  2 06:39:21 2022] GET /static/mainpage/images/brotherhood.png => generated 2635 bytes in 8 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+[pid: 34077|app: 0|req: 6/13] 42.80.88.114 () {38 vars in 752 bytes} [Wed Mar  2 06:39:22 2022] GET /new/ => generated 2618 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/title3.png
+[pid: 34075|app: 0|req: 3/14] 42.80.88.114 () {36 vars in 717 bytes} [Wed Mar  2 06:39:22 2022] GET /static/mainpage/images/title3.png => generated 2620 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+Not Found: /static/mainpage/images/brotherhood.png
+[pid: 34075|app: 0|req: 4/15] 42.80.88.114 () {36 vars in 727 bytes} [Wed Mar  2 06:39:23 2022] GET /static/mainpage/images/brotherhood.png => generated 2635 bytes in 8 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+[pid: 34074|app: 0|req: 2/16] 42.80.88.114 () {38 vars in 752 bytes} [Wed Mar  2 06:39:24 2022] GET /new/ => generated 2618 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/title3.png
+[pid: 34074|app: 0|req: 3/17] 42.80.88.114 () {36 vars in 717 bytes} [Wed Mar  2 06:39:24 2022] GET /static/mainpage/images/title3.png => generated 2620 bytes in 12 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+Not Found: /static/mainpage/images/brotherhood.png
+[pid: 34077|app: 0|req: 7/18] 42.80.88.114 () {36 vars in 727 bytes} [Wed Mar  2 06:39:25 2022] GET /static/mainpage/images/brotherhood.png => generated 2635 bytes in 7 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 34079)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Mar  2 06:51:47 2022] ***
+compiled with version: 9.3.0 on 02 March 2022 06:51:17
+os: Linux-5.4.0-26-generic #30-Ubuntu SMP Mon Apr 20 16:58:30 UTC 2020
+nodename: brotherhood
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/tjur/WEBofBrotherhood
+writing pidfile to uwsgi.pid
+detected binary path: /home/tjur/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/tjur/WEBofBrotherhood
+your processes number limit is 3641
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44441 (port auto-assigned) fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/tjur/WEBofBrotherhood/venv
+Set PythonHome to /home/tjur/WEBofBrotherhood/venv
+Python main interpreter initialized at 0x55cc1088d5a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55cc1088d5a0 pid: 34728 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34728)
+spawned uWSGI worker 1 (pid: 34730, cores: 2)
+spawned uWSGI worker 2 (pid: 34731, cores: 2)
+spawned uWSGI worker 3 (pid: 34733, cores: 2)
+spawned uWSGI worker 4 (pid: 34734, cores: 2)
+spawned uWSGI http 1 (pid: 34735)
+[pid: 34733|app: 0|req: 1/1] 42.80.88.114 () {38 vars in 752 bytes} [Wed Mar  2 06:51:54 2022] GET /new/ => generated 2618 bytes in 43 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 34733|app: 0|req: 2/2] 42.80.88.114 () {38 vars in 752 bytes} [Wed Mar  2 06:51:54 2022] GET /new/ => generated 2618 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+Not Found: /static/mainpage/images/title3.png
+[pid: 34731|app: 0|req: 1/3] 42.80.88.114 () {36 vars in 717 bytes} [Wed Mar  2 06:51:54 2022] GET /static/mainpage/images/title3.png => generated 2620 bytes in 35 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 0)
+Not Found: /static/mainpage/images/brotherhood.png
+[pid: 34734|app: 0|req: 1/4] 42.80.88.114 () {36 vars in 727 bytes} [Wed Mar  2 06:51:55 2022] GET /static/mainpage/images/brotherhood.png => generated 2635 bytes in 41 msecs (HTTP/1.1 404) 6 headers in 200 bytes (1 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 34735)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
